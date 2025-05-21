@@ -1,0 +1,155 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: #693E85;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(105, 62, 133, 0.2);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.input-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.name-input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #693E85;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #693E85;
+}
+
+.name-input:focus {
+  border-color: #693E85;
+  box-shadow: 0 0 8px rgba(105, 62, 133, 0.3);
+}
+
+.name-input::placeholder {
+  color: #693E85;
+  opacity: 0.6;
+}
+
+.generate-btn, .download-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #693E85;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.generate-btn:hover, .download-btn:hover {
+  background-color: #8B5EAD;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(105, 62, 133, 0.3);
+}
+
+.image-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.generated-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(105, 62, 133, 0.2);
+}
+
+.download-btn {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .name-input, .generate-btn {
+    width: 100%;
+  }
+}
