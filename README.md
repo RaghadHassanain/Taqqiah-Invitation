@@ -1,12 +1,26 @@
-# React + Vite
+# Taqqiah - Personalized Invitation Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Taqqiah** is a simple and interactive web application that allows users to type their name and instantly receive a customized invitation image with their name embedded.  
+The project reimagines a traditional Saudi game in a modern, digital form.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clean and fast user interface
+- Name input field with instant image generation
+- Personalized invitation with name overlay
+- Option to download the generated image
+- Built with React, Vite, and Tailwind CSS
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can try the live version here:  
+[https://taqqiah-invitation.netlify.app](https://taqqiah-invitation.netlify.app)
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+
+<img width="1695" alt="Screenshot 1446-11-23 at 10 04 22 AM" src="https://github.com/user-attachments/assets/b41cac4d-131f-4811-ac67-98a432f4681f" />
+<img width="1705" alt="Screenshot 1446-11-23 at 10 04 43 AM" src="https://github.com/user-attachments/assets/fba42fad-b6b7-4d48-9b7b-2683d25b4faa" />
